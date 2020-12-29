@@ -2,6 +2,11 @@
 	padding: 0;
 	margin: 0;
 }
+.container{
+	background-image: url('https://images.unsplash.com/photo-1521143915126-31e3c178cfa8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODl8fGJsYWNrJTIwYW5kJTIwd2hpdGUlMjBtb3VudGFpbnN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .container .left{
 	width: 30%;
 	height: 100%;
@@ -16,7 +21,7 @@ a{
 	width: 68%;
 	height:100%;
 	display:inline-block;
-	background: #910d0dcc;
+	position: relative;
 }
 .left .person-avatar{
 	text-align: center;
@@ -53,4 +58,34 @@ a{
 .navigation .menulist-1{
 	padding-top: 30px;
 	padding-left: 103px;
+}
+.right .data{
+	position: absolute;
+    bottom: 341px;
+    left: 63px;
+}
+.right .heading{
+	font-size: 4em;
+	color: #910d0dcc;
+	font-weight: 600;
+}
+.right .subheading{
+    font-size: 22px;
+    color: #910d0dcc;
+    font-weight: 600;
+    line-height: 36px;
+}
+.right .home-buttons{
+	position: absolute;
+    top: 220px;
+}
+.right .home-buttons a{
+	border: 3px solid #910d0dcc;
+    padding: 10px;
+    color: #910d0dcc;
+    font-size: 17px;
+    font-weight: 600;
+}
+.right .home-buttons a:hover{
+	background-color: #863e3ecc;
 }
