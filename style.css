@@ -1,4 +1,4 @@
-.body{
+body{
 	padding: 0;
 	margin: 0;
 }
@@ -61,7 +61,7 @@ a{
 }
 .right .data{
 	position: absolute;
-    bottom: 341px;
+    bottom: 434px;
     left: 63px;
 }
 .right .heading{
@@ -88,4 +88,28 @@ a{
 }
 .right .home-buttons a:hover{
 	background-color: #863e3ecc;
+	color: #fff;
+}
+
+.block-social{
+	padding-left: 98px; 
+	padding-bottom: 30px;
+}
+
+.block-social .block-title{
+	color: #ffffff99;
+	padding-bottom: 10px;
+}
+
+.block-social .block-title:hover{
+	color: #fff;
+}
+
+.block-social .social a{
+	text-decoration: none;
+	color: #ffffff99;
+    padding-right: 10px;
+}
+.block-social .social a:hover{
+	color: #fff;
 }
