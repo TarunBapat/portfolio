@@ -113,3 +113,20 @@ a{
 .block-social .social a:hover{
 	color: #fff;
 }
+.block-social .social .fas {
+	transition: 0.1s;
+}
+.block-social .social .fas:hover{
+	transform: scale(1.8);
+}
+.block-social .social .fab {
+	transition: 0.1s;
+}
+.block-social .social .fab:hover{
+	transform: scale(1.8);
+}
+
+.navigation .menu a:hover:after{
+	content: " \2192 ";
+    padding-left: 3px;
+} 
