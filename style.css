@@ -68,12 +68,17 @@ a{
 	font-size: 4em;
 	color: #910d0dcc;
 	font-weight: 600;
+
+	animation-name: moveInLeft;
+	animation-duration: 2s;
 }
 .right .subheading{
     font-size: 22px;
     color: #910d0dcc;
     font-weight: 600;
     line-height: 36px;
+    animation-name: moveInRight;
+	animation-duration: 2s;
 }
 .right .home-buttons{
 	position: absolute;
@@ -130,3 +135,31 @@ a{
 	content: " \2192 ";
     padding-left: 3px;
 } 
+
+@keyframes moveInLeft{
+	0%{
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+	80%{
+		transform: translateX(10px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+@keyframes moveInRight{
+	0%{
+		opacity: 0;
+		transform: translateX(100px);
+	}
+	80%{
+		transform: translateX(-10px);
+	}
+	100%{
+		opacity: 1;
+		transform: translate(0);
+	}
+}
